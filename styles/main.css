@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: black;
+}
+
+.header {
+  height: 15vh;
+  background-color: white;
+}
+
+.links {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  background-color: darkcyan;
+  width: 15vw;
+}
+
+.button {
+  align-self: center;
+}
+
+.footer {
+  transform: translateY(100%);
+  height: 15vh;
+  background-color: darkgoldenrod;
+}
+
+.button {
+  color: black;
+  font-weight: bold;
+  background-color: bisque;
+  padding: 1em;
+  border-radius: 10%;
+  border: 1px solid #cecece;
+}
+.button:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
